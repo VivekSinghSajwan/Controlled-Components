@@ -16,7 +16,7 @@ function MultipleInput(){
         copyObj[name] = value;
         setInputData(copyObj);
     }
-
+    
     let handleSubmit = (e) => {
         e.preventDefault();
         alert("-- Data Submitted--")
