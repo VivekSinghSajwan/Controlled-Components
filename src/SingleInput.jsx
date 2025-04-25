@@ -7,7 +7,7 @@ function SingleInput() {
   let changeName = (e) => {
     setName(e.target.value)
   }
-  
+
   return (
     <div>
       <input onChange={changeName} value={name} type="text" placeholder='enter name'/>
